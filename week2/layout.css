@@ -1,0 +1,194 @@
+.header{
+    background: #000;
+}
+.bruno{
+    font-family: 'Bruno Ace SC', cursive;
+    color: #FFFFFF;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1296px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.pt-6{
+    padding-top: 40px;
+}
+.list-item a{
+    line-height: 24px;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+.nav{
+    padding-top: 72px;
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.mr-6{
+    margin-right: 24px;
+}
+.flex-col {
+    flex-direction: column;
+  }
+.banner-text{
+    color: #FFFFFF;
+    width: 636px;
+}
+h2{
+    font-size: 64px;
+    line-height: 96px;
+}
+h1{
+    color: #00FFA3;
+    font-size: 128px;
+    line-height: 192px;
+}
+.self-end{
+    text-align: end;
+}
+.button{
+    display: block;
+    display: flex;
+    padding: 12px 24px 12px 24px;
+    background-color: #fff;
+    width: 185px;
+    border-radius:32px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.button{
+    color: #000000;
+}
+.ml-1{
+    margin-left: 4px;
+}
+p{
+    line-height: 1.5;
+}
+.introduction{
+    height: 920px;
+    background-image: url("/images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pt-45{
+    padding: 160px 0;
+}
+h3{
+    font-size: 24px;
+    line-height: 36px;
+}
+.d-flex{
+    display: flex;
+}
+.intro-left{
+    width: 526px;
+    height: 442px;
+}
+.mb-9{
+    margin-bottom: 36px;
+}
+.intro-img{
+    width: 128px;
+    height: 98px;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+.intro-right{
+    width: 746px;
+    height: 600px;
+}
+.about-me{
+    color: #000;
+    background: #FFFFFF;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+.card{
+    width: calc(50% - 12px);
+}
+.card li{
+    width: 306px;
+    padding: 16px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 4px 4px 4px #00000014;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.mb-6{
+    margin-bottom: 24px; 
+}
+.bruno h4{
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+}
+h5{
+    color: #000;
+    line-height: 24px;
+}
+.title{
+    width: 526px;
+    color: #000;
+}
+.contact{
+    background: #050014;
+    background: #01021E;
+}
+.ml-4{
+    margin-left: 16px;
+}
+.image{
+    object-fit: cover;
+    border-radius: 40px;
+    height: 162px;
+    width: 526px;
+}
+.contact .image img:hover {
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    border-radius: 40px;
+}
+.project h2 {
+    width: 746px;
+}
+.project .bruno{
+    color: #000;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+.frame-box{
+    width: 856px;
+}
+.frame1{
+    margin-bottom: 28px;
+}
+.flex-col{
+    flex-direction: column;
+}
+.bnt{
+    display: block;
+    display: flex;
+    padding: 12px 24px 12px 24px;
+    background-color: #000;
+    width: 185px;
+    border-radius:32px;
+    text-decoration: none;
+    font-family: 'Bruno Ace SC', cursive;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+
+.footer{
+    background: #000;
+    text-align: center;
+    padding: 40px 0;
+}
