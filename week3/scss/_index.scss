@@ -1,0 +1,148 @@
+.banner{
+    background-image: url("../images/home-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .banner-item{
+        padding-top: 296px;
+        padding-bottom: 296px;
+    }
+
+    a{
+        text-decoration: none;
+        background: $primary;
+        color: $white;
+        padding: 6px 12px; 
+    }
+
+    a:hover{
+        background: $red-blood;
+    }
+
+}
+
+.about{
+    background: $pink;
+
+    .title{
+        margin-bottom: 32px;
+    }
+
+    .item{
+        width: calc(100% - 72px);
+        
+        .item-pic{
+            width: 83.83px;
+            margin-bottom: 16px;
+        }
+    
+        .item-pic2{
+            width: 100px;
+        }
+
+        .mb-8{
+            margin-bottom: 8px;
+        }
+    }
+
+}
+
+.classical{
+
+    .mt-8{
+        margin-top: 8px;
+    }
+
+    .ul-clac{
+        max-width: calc(100% - 72px);
+
+        @media (max-width: 992px){
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+
+    .clac{
+        width: calc((100% - 48px) / 3);
+
+        @media(max-width: 992px){
+            width: 50%;
+        }
+    }
+
+}
+
+.design{
+    background-image: url("../images/index-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title{
+        color: $white;
+    }
+
+    .bg-w{
+        background: $white;
+    }
+
+}
+
+.recommend{
+
+    li{
+        border: 1px solid $bg-gray;
+        box-shadow: 0 2px 6px $shadow;
+    }
+    
+    .bk{
+        color: $dark;
+    }
+
+}
+
+.contact{
+    background-color: $pink;
+
+    .contact-us{
+        max-width: 636px;
+    }
+
+    .item{
+        flex-direction: column;
+        gap: 16px;
+
+        .input{
+            border: 2px solid #000;
+            padding-left: 12px;
+            padding-bottom: 6px;
+            padding-top: 6px;
+            background-color: transparent;
+            width: 100%;
+        }
+
+        .resize-none{
+            resize: none;
+        }
+    }
+        
+    .submit{
+        
+        .btn{
+            background-color: $primary;
+            padding: 16px 0;
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+            text-decoration: none;
+            color: $white;
+        }
+
+        .btn:hover{
+            background: $red-blood;
+        }
+
+    }
+}
